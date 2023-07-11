@@ -1,0 +1,14 @@
+.Home_vh{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.bodyfull{
+    height: 90%;
+    /* background-color: aquamarine; */
+    width: 100%;
+}
+.parent_container{
+    height: auto;
+}
