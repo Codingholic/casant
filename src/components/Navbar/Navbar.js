@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className='navigationBar'>
-      <div className='NavBox1'>
+      <div className='NavBox1 center'>
         <img style={{height: "60px", width: "60px"}} src={logo} alt='' />
         <p>Cas Ant Private Ltd</p>
       </div>

@@ -1,75 +1,21 @@
-import React from 'react';
-import { Navigation, EffectCoverflow } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper"
-import 'swiper/css';
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
-
-import image from "../Navbar/logo/pa-sound-system.jpg"
-
-function Swipers() {
+import React from 'react'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import image from "../Navbar/logo/image.png"
+const Swipers = () => {
   return (
-    <div className="container">
-      <h1 className="heading">What do we offer?</h1>
-      <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        slidesPerView={'3'}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-        }}
-        pagination={{ el: '.swiper-pagination', clickable: true }}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-          clickable: true,
-        }}
-        modules={[EffectCoverflow, Navigation]}
-        className="swiper_container"
-      >
-        <SwiperSlide>
-          <img src={image} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={image} alt="slide_image" />
-        </SwiperSlide>
-
-        <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <ion-icon name="arrow-back-outline"></ion-icon>
-          </div>
-          <div className="swiper-button-next slider-arrow">
-            <ion-icon name="arrow-forward-outline"></ion-icon>
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
-      </Swiper>
-    </div>
-  );
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={image} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+  )
 }
 
-export default Swipers;
+export default Swipers

@@ -2,6 +2,7 @@
     height: 100vh;
     /* background-color: #012166; */
     width: 100%;
+    justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -21,4 +22,22 @@
     color: white;
     display: flex;
     justify-content: center;
+}
+
+.card_container_1{
+    height: 45%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.card_container_2{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(39, 16, 130);
+}
+.service_cards{
+    flex-direction: column;
+    height: 90%;
+    background-color: rgb(107, 189, 119);
+    border-radius: 11px;
+    width: 16%;
 }
