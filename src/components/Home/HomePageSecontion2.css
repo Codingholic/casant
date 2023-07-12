@@ -1,4 +1,6 @@
-.HomePageSecontion2{
+.HomePageSecontion2 {
+    /* background-image: url("/src/components/Navbar/logo/elegant-white-background-with-blue-wave-lines.jpg"); */
+    background-size: cover;
     height: 100vh;
     /* background-color: #012166; */
     width: 100%;
@@ -6,8 +8,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* opacity: -100; */
 }
-.carousle_images{
+
+.carousle_images {
     height: 60%;
     /* background-color: #012166; */
     width: 100%;
@@ -15,7 +19,8 @@
     display: flex;
     justify-content: center;
 }
-.Text_heading{
+
+.Text_heading {
     height: 10%;
     /* background-color: #012166; */
     width: 100%;
@@ -24,20 +29,114 @@
     justify-content: center;
 }
 
-.card_container_1{
-    height: 45%;
+.card_container_1 {
+    height: 48%;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.card_container_2{
-    height: 45%;
+
+.card_container_2 {
+    height: 48%;
     width: 100%;
-    background-color: rgb(39, 16, 130);
+    /* background-color: rgb(39, 16, 130); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.service_cards{
+
+.service_cards {
+    display: flex;
+    align-items: center;
     flex-direction: column;
-    height: 90%;
-    background-color: rgb(107, 189, 119);
+    height: 97%;
+    /* background-color: rgb(107, 189, 119); */
     border-radius: 11px;
-    width: 16%;
+    width: 18%;
+    padding: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px;
+    
+}
+
+.card_image {
+    height: 195px;
+    width: 90%;
+    border-radius: 11px;
+    background-color: #0095ff;
+}
+.card_image img{
+    height: 195px;
+    width: 100%;
+    border-radius: 11px;
+    object-fit: cover;
+}
+.service_cards h5{
+    margin-top: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+.service_cards p{
+   font-size: 13px;
+}
+.know_more_Button{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+}
+.para_button_container{
+    height: 23%;
+    width: 92%;
+    /* background-color: bisque; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+/* CSS */
+.button-7 {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
 }
