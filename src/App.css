@@ -1,0 +1,9 @@
+.bot{
+    position: fixed;
+    z-index: 100;
+    height: 60%;
+    /* background-color: aqua; */
+    width: 17%;
+    bottom: 23px;
+    right: 49px;
+}
