@@ -17,15 +17,20 @@
     padding: 12.5px;
     font-weight: bold;
 }
-
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar {
+    display: none;
+  }
+  
 .react-chatbot-kit-chat-input-container {
 }
 
 .react-chatbot-kit-chat-message-container {
-    /* background-color: #ccdff0 !important; */
+    background-color: #181818 !important;
 }
 
 .react-chatbot-kit-chat-input {
+    background-color: #181818;
+    color: white;
 }
 
 .react-chatbot-kit-chat-input-form {
