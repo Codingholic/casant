@@ -6,7 +6,7 @@ import 'react-chatbot-kit/build/main.css'
 import "./Bot.css"
 export const Bot = () => {
   return (
-    <div>
+    <div className='botanimate'>
       <Chatbot
         config={config}
         messageParser={MessageParser}

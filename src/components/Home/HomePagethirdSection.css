@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+.HomePagethirdSection_container{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #d7d3d0; */
+    display: flex;
+    flex-direction: column;
+}
+.HomePagethirdSection_divide{
+    height: 50%;
+    background-color: #d7d3d0;
+    width: 100%;
+}
+.HomePagethirdSection_divide_move_up{
+    height: 50%;
+    /* background-color: aquamarine; */
+    width: 100%;
+}
+.background_image_building_collage{
+
+}
+.setup_for_cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.creator_cards{
+    /* background-color: blue; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 114%;
+    width: 24%;
+    border-radius: 55px;
+    display: flex;
+    top: -123px;
+    position: relative;
+    align-items: center;
+    /* margin-bottom: -12px; */
+    flex-direction: column;
+}
+.creator_cards h3{
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 14px;
+}
+.creator_cards h5{
+    font-family: 'Crete Round', serif;
+    font-size: 16px;
+}
+.creator_photo{
+    background-image: url("/src/components/Navbar/logo/elon2.webp");
+    background-size: cover;
+    margin-top: 16px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    object-fit: cover;
+}
+
+.whitecolor{
+background-color: white;
+}
+.quotes{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    font-family: 'Crete Round', serif;
+}

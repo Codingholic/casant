@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import { motion } from 'framer-motion'
 import './App.css';
 import Home from './components/Home/Home';
 import bot from "./components/Navbar/logo/bot.png"
@@ -23,14 +24,15 @@ function App() {
   }
   return (
     <div className="App">
-      <div onClick={handlebotdisplay} className={boticon}>
-        <img onClick={handlebotdisplay} className={boticon} src={bot} alt='bot' />
-      </div>
+      <motion.div whileTap={{ height: "50px", width: "50px"}} onClick={handlebotdisplay} className={boticon}>
+        <motion.img whileTap={{ scale: 0.8}} onClick={handlebotdisplay}  className={boticon} src={bot} alt='bot' />
+      </motion.div>
       <div className={display}>
         <button onClick={handleclosebot} className='button-7 moveclosebutton'>close</button>
         <Bot />
       </div>
       <Home />
+      
     </div>
   );
 }
